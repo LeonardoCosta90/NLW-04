@@ -58,5 +58,5 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 ---
 
 <h4 align="center">
-    Feito com 💜 by <a href="https://https://www.linkedin.com/in/leonardo-costa-65aa26b5" target="_blank">Leonardo Costa</a>
+    Feito com 💜 by <a href="https://www.linkedin.com/in/leonardo-costa-65aa26b5" target="_blank">Leonardo Costa</a>
 </h4>
