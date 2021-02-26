@@ -29,6 +29,55 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Express](https://expressjs.com/pt-br/)
 - [YARN](https://yarnpkg.com/)
 
+## ⤵ Comandos para começar
+
+Essas instruções vão te levar a uma cópia do projeto rodando em sua máquina local para propósitos de testes e desenvolvimento. Foram implementados testes de integração.
+
+Obs: Banco de dados é o Sqlite3, caso queira alterar, configure o arquivo ormconfig.json para seu banco de dados específico (Campo "database" é o nome do banco de dados no SGBD, neste projeto é local).
+
+```bash
+- git clone https://github.com/Lucas-Angelo/nps-api.git
+- cd nps-api
+```
+
+Instalando dependências (Recomendável utilizar NPM para compatibilidade com reflect-metadata)
+
+```bash
+- npm install
+```
+
+ou
+
+```bash
+- yarn install
+```
+
+Gerar o arquivo de database.sqlite do Sqlite3, onde ficaram armazenados as tabelas da API
+
+```bash
+- yarn devDB
+```
+
+Criando tabela das migrations do Sqlite3 por meio do cli do TypeOrm
+
+```bash
+- yarn typeorm migration:run
+```
+
+Inicializando uma instância local (Script configurado no package.json)
+
+```bash
+- yarn dev
+```
+
+## ⤵ Testes
+
+Para testar se instalou a aplicação corretamente e se passa em todos os testes de integração, utilize o comando:
+
+```bash
+- yarn test
+```
+
 ## 🔗 Links do projeto
 
 ### Notion
