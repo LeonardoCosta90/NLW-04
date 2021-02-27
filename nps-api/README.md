@@ -1,116 +1,56 @@
-<h3 align="center">
-    <img width="300px" src=".github/imagem.png"">
-    <br><br>
-    <p align="center">
-      <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-      <a href="#-links-do-projeto">Links</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-      <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-      <a href="#-license">Licença</a>
-  </p>
+<h1 align="center">NPS-NLW</h1>
 
-</h3>
 <p align="center">
-  <a href="https://rocketseat.com.br">
-    <img src=".github/background.png"">
-  </a>
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-diagrama">Diagrama</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-executar">Como executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licença">Licença</a>
 </p>
 
-## 🔖 Sobre
+<p align="center">
+ <img src="https://img.shields.io/static/v1?label=NLW&message=04&color=8257E5&labelColor=000000" alt="NLW 04" />
+</p>
 
-O <strong>NPS-API</strong> é uma API Restful para Net Promoter Score.
+<br>
 
-Aplicação web construída na trilha <strong>NodeJS</strong> da <strong>Next Level Week</strong> distribuída pela [Rocketseat](https://rocketseat.com.br/).
+<p align="center">
+  <img alt="Happy" src=".github/preview.png" width="100%">
+</p>
 
-## 🚀 Tecnologias
+## ✨ Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [Node.js](https://nodejs.org/en/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Ethereal-Email](https://ethereal.email/)
+- [TypeORM](https://typeorm.io/#/)
 - [Express](https://expressjs.com/pt-br/)
-- [YARN](https://yarnpkg.com/)
+- [Jest](https://jestjs.io/)
+- [SQL Editor Beekeeper Studio](https://www.beekeeperstudio.io/)
 
-## ⤵ Comandos para começar
+## 💻 Projeto
 
-Essas instruções vão te levar a uma cópia do projeto rodando em sua máquina local para propósitos de testes e desenvolvimento. Foram implementados testes de integração.
+O NPS-NLW é uma aplicação que consiste em calcular o NPS da empresa. Nele fazemos o cadastro de usuários, cadastro de pesquisas, envio de e-mail para os usuários responderem as pesquisas de satisfação e com isso podemos realizar o cálculo do NPS.
 
-Obs: Banco de dados é o Sqlite3, caso queira alterar, configure o arquivo ormconfig.json para seu banco de dados específico (Campo "database" é o nome do banco de dados no SGBD, neste projeto é local).
+Esse projeto foi desenvolvido durante a trilha de NodeJS, na quarta edição da NLW. Aprendemos conceitos sobre o que é um API, como iniciar um projeto utilizando Typescript e Express para gerenciamento das rotas, TypeORM para manipulação dos dados, testes automatizados e envio de e-mail.
 
-```bash
-- git clone https://github.com/Lucas-Angelo/nps-api.git
-- cd nps-api
-```
+## 🔶 Diagrama
 
-Instalando dependências (Recomendável utilizar NPM para compatibilidade com reflect-metadata)
+<img src="public/diagrama.png" alt="Diagrama da aplicação" />
 
-```bash
-- npm install
-```
+## 🚀 Como executar
 
-ou
+- Clone o repositório
+- Instale as dependências com `yarn`
+- Inicie o servidor com `yarn dev`
 
-```bash
-- yarn install
-```
+A aplicação pode ser acessada em [`localhost:3333`](http://localhost:3333).
 
-Gerar o arquivo de database.sqlite do Sqlite3, onde ficaram armazenados as tabelas da API
+## 📄 Licença
 
-```bash
-- yarn devDB
-```
-
-Criando tabela das migrations do Sqlite3 por meio do cli do TypeOrm
-
-```bash
-- yarn typeorm migration:run
-```
-
-Inicializando uma instância local (Script configurado no package.json)
-
-```bash
-- yarn dev
-```
-
-## ⤵ Testes
-
-Para testar se instalou a aplicação corretamente e se passa em todos os testes de integração, utilize o comando:
-
-```bash
-- yarn test
-```
-
-## 🔗 Links do projeto
-
-### Notion
-- [Ambiente](https://www.notion.so/Configura-es-do-ambiente-Node-js-ae9fea3f78894139af4268d198294e2a)
-- [Aula 1](https://www.notion.so/Dia-1-Fundamentos-do-NodeJS-a0040fa51a764bdaaf5648fedbf6fb4d)
-- [Aula 2](https://www.notion.so/danileao/Dia-2-Iniciando-com-o-Banco-de-Dados-ffa8a141872641b7b13338f339d7a69b)
-- [Aula 3](https://www.notion.so/Dia-3-Testando-a-nossa-aplica-o-6b517e6d081241258009c640f7032cde)
-- [Aula 4](https://www.notion.so/danileao/Dia-4-Envio-de-e-mail-1b85cb36f0a84e5e90a43e3acbce5674)
-
-### Resources
-[Ícones e Wallpapers](https://drive.google.com/drive/folders/11fxy_LmTD6S1FGTQbeu47QPLzvyuEGSs)
-
-
-
-## 🎓 Quem ministrou?
-
-As aulas foram ministradas pela **[Daniele Leão](https://github.com/danileao)** na **Next Level Week 04**.
-
-## 🤔 Como contribuir
-
-- Faça um fork desse repositório;
-- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
-- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
-- Faça push para a sua branch: `git push origin minha-feature`.
-
-Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
-
-## 📝 License
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Esse projeto está sob a licença MIT.
 
 ---
 
-<h4 align="center">
-    Feito com 💜 by <a href="https://www.linkedin.com/in/leonardo-costa-65aa26b5" target="_blank">Leonardo Costa</a>
-</h4>
+Feito com 💜 by <a href="https://www.linkedin.com/in/leonardo-costa-65aa26b5" target="_blank">Leonardo Costa</a>
