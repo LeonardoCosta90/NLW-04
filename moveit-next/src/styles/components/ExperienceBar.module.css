@@ -1,12 +1,14 @@
-.experienceBar{
-  display:flex;
+.experienceBar {
+  display: flex;
   align-items: center;
 }
+
 .experienceBar span{
   font-size: 1rem;
 }
-.experienceBar > div{
-  flex:1;
+
+.experienceBar > div {
+  flex: 1;
   height: 4px;
   border-radius: 4px;
   background: var(--gray-line);
@@ -15,13 +17,13 @@
 }
 
 .experienceBar > div > div {
-  height: 4px ;
+  height: 4px;
   border-radius: 4px;
   background: var(--green);
 }
 
-span.currentExperience{
+span.currentExperience {
   position: absolute;
   top: 12px;
-  transform: translateX(-50%);
+  transform: translateX(-50%)
 }

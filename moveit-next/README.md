@@ -3,10 +3,20 @@
 </h1>
 
 <p align="center">
-  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-preview">Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#-license">License</a>
+</p>
+
+<p align="center">
+  <img  src="https://img.shields.io/static/v1?label=license&message=MIT&color=5965E0&labelColor=121214" alt="License">
+  
+  <img src="https://img.shields.io/github/forks/guilhermecapitao/nlw-04-reactjs-moveit?label=forks&message=MIT&color=5965E0&labelColor=121214" alt="Forks">     
+
+  <img src="https://img.shields.io/github/stars/guilhermecapitao/nlw-04-reactjs-moveit?label=stars&message=MIT&color=5965E0&labelColor=121214" alt="Stars">
 </p>
 
 <br>
@@ -15,34 +25,53 @@
   <img alt="Moveit" src=".github/icon.svg" width="120px">
 </p>
 
-## 🚀 Tecnologias
+## 🧪 Technologies
 
-Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
+This project was developed using the following technologies:
 
 - [Next.js](https://nextjs.org/)
 - [React](https://reactjs.org)
 - [TypeScript](https://www.typescriptlang.org/)
 
-## 💻 Projeto
+## 🔥 Preview
 
-O Move.it veio para te lembrar de se exercitar sempre! 💜 
+[![Deploy with Vercel](https://vercel.com/button)](https://moveit-leonardocosta90.vercel.app/)
 
-Este é um projeto desenvolvido durante a **[Next Level Week](https://nextlevelweek.com/)**, realizada pela **[@Rocketseat](https://github.com/Rocketseat)** durante os dias 22 a 28 de Fevereiro de 2021.
+## 🚀 Getting started
+
+Clone the project and access the folder
+
+```bash
+$ git clone https://github.com/LeonardoCosta90/NLW-04/nlw04-moveit-web.git && cd nlw04-moveit-web
+```
+
+Follow the steps below
+```bash
+# Install the dependencies
+$ yarn
+
+# Start the project
+$ yarn dev
+```
+
+## 💻 Project
+
+[Move.it](https://move-it-guilhermecapitao.vercel.app/) came to remind you to exercise always! 💜 
+
+This is a project developed during the **[Next Level Week](https://nextlevelweek.com/)**, presented by **[@Rocketseat](https://github.com/Rocketseat)** during February 22-28, 2021.
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através dos links abaixo:
+You can view the project layout through the links below:
 
 - [Layout Web](https://www.figma.com/file/ge20pu3ofMOKoliUyKx1Nl/Move.it-1.0) 
 
-Lembrando que você precisa ter uma conta no [Figma](http://figma.com/) para acessá-lo.
+Remembering that you need to have a [Figma](http://figma.com/) account to access it.
 
-## 📝 Licença
+## 📝 License
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for details.
+
 
 ---
-
-<h4 align="center">
-    Feito com 💜 by <a href="https://www.linkedin.com/in/leonardo-costa-65aa26b5" target="_blank">Leonardo Costa</a>
-</h4>
+Feito com 💜 by <a href="https://www.linkedin.com/in/leonardo-costa-65aa26b5" target="_blank">Leonardo Costa</a>
